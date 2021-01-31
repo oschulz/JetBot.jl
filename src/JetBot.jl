@@ -9,6 +9,12 @@ NVIDIA JetBot control from Julia
 """
 module JetBot
 
+using BaremetalPi
+using ImageIO
+using Images
+using VideoIO
+
+
 # package code goes here
 
 
