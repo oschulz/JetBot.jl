@@ -15,7 +15,10 @@ using Images
 using VideoIO
 
 
-# package code goes here
+include("motors.jl")
+include("cameras.jl")
+include("hid.jl")
 
+include("precompile.jl")
 
 end # module
